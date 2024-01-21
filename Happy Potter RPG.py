@@ -49,7 +49,7 @@ class HarryPotter(Wizard):
 
 # Setting up new Objects
 # Player Character
-myCharacter = HarryPotter("Harry Potter", 50, 5, 15)
+myCharacter = HarryPotter("Harry Potter", 50, 5, 15, any)
 myCharacter.selectWeapon()
 
 
