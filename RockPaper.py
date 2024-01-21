@@ -23,12 +23,12 @@ def Intro():
 Intro()
 # Step 3> Players choose their moves
 def playerTurn():
-    print(" Type: Rock, Paper, or Scissors")
+    print(" Type: Lizard, Spock, Rock, Paper, or Scissors")
     return input("Please select your option >>")
-    while temp.lower() != "rock" and temp != "paper" and temp != "scissors":
-        temp = input("invalid number, try again >>")
+while temp.lower() != "rock" and temp != "paper" and temp != "scissors":
+    temp = input("invalid number, try again >>")
     print("Your Move" + temp)
-
+    
     return temp
 
 playerChoice = playerTurn()
